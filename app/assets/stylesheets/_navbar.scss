@@ -4,7 +4,7 @@
   background: white;
   transition: all 0.3s ease;
   display: flex;
-  height: 70px;
+  height: 140px;
   padding: 0px 30px;
   align-items: center;
   justify-content: space-between;
@@ -46,6 +46,7 @@
 .navbar-wagon-link:hover {
   color: #da552f;
   text-decoration: none;
+
 }
 
 /* Navbar right button */
@@ -61,7 +62,7 @@
 }
 .navbar-wagon-button:hover {
   color: white;
-  background: #D23333;
+  background: #aa2929;
   border-color: #ac2626;
 }
 

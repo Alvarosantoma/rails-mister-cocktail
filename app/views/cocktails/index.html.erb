@@ -23,7 +23,6 @@
         <td><%= link_to 'Edit', edit_cocktail_path(cocktail) %></td>
         <td><%= link_to 'Destroy', cocktail, method: :delete, data: { confirm: 'Are you sure?' } %></td>
         <td>
-        <%= cl_image_path cocktail.photo, height: 300, width: 400, crop: :fill if cocktail.photo.url %>
         <%= cl_image_tag cocktail.photo,  height: 300, width: 400, crop: :fill if cocktail.photo %>
         </td>
       </tr>
